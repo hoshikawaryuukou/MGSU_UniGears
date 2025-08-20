@@ -4,5 +4,5 @@
 
 ### CommonKit
 ```
-https://github.com/hoshikawaryuukou/MGSU_UniGears.git?path=src/MGSU_UniGears/Assets/CommonKit/Scripts
+https://github.com/hoshikawaryuukou/MGSU_UniGears.git?path=Assets/CommonKit/Scripts
 ```
