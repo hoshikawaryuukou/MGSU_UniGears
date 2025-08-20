@@ -1,0 +1,12 @@
+{
+  "name": "com.miniaturegardenstudio.unigears-commonkit",
+  "version": "1.0.0",
+  "displayName": "Unigears CommonKit",
+  "description": "Unity CommonKit",
+  "keywords": [
+    "editor"
+  ],
+  "author": {
+    "name": "Miniature Garden Studio"
+  }
+}
