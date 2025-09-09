@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "MGSP_TrackPiece.sln"
+    "dotnet.defaultSolution": "MGSU_UniGears.sln"
 }
