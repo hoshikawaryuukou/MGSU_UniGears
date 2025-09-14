@@ -2,13 +2,13 @@
 using UnityEditor;
 using UnityEditorInternal;
 
-namespace UniGears.CommonKit.Editor
+namespace UniGears.AsmdefKit.Editor
 {
-    internal static class AssemblyDefinitionEditorUtils
+    internal static class AsmdefEditorUtils
     {
-        private const string SORT_ALL_ASMDEF_REFERENCES_IN_ASSETS = "UniGears/Common/Asmdef/Sort All Asmdef References In Assets";
-        private const string SORT_ALL_ASMDEF_REFERENCES_RECURSIVELY = "Assets/UniGears/Common/Asmdef/Sort All Asmdef References Recursively";
-        private const string SORT_ASMDEF_REFERENCES = "Assets/UniGears/Common/Asmdef/Sort Asmdef References";
+        private const string SORT_ALL_ASMDEF_REFERENCES_IN_ASSETS = "UniGears/AsmdefKit/Sort All Asmdef References In Assets";
+        private const string SORT_ALL_ASMDEF_REFERENCES_RECURSIVELY = "Assets/UniGears/AsmdefKit/Sort All Asmdef References Recursively";
+        private const string SORT_ASMDEF_REFERENCES = "Assets/UniGears/AsmdefKit/Sort Asmdef References";
         private const string SORT_COMPLETED = "Completed";
 
         [MenuItem(SORT_ALL_ASMDEF_REFERENCES_IN_ASSETS, false, 0)]
@@ -86,7 +86,7 @@ namespace UniGears.CommonKit.Editor
                         progress: (float)number / length
                     );
 
-                    AssemblyDefinitionReferencesSorter.Sort(assetPath);
+                    AsmdefReferencesSorter.Sort(assetPath);
                 }
             }
             finally

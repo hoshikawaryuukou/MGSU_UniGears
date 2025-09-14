@@ -1,0 +1,12 @@
+{
+  "name": "com.miniaturegardenstudio.unigears-asmdefkit",
+  "version": "1.0.0",
+  "displayName": "Unigears AsmdefKit",
+  "description": "Unigears AsmdefKit",
+  "keywords": [
+    "editor"
+  ],
+  "author": {
+    "name": "Miniature Garden Studio"
+  }
+}

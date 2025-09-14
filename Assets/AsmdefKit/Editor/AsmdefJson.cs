@@ -1,9 +1,9 @@
 using System;
 
-namespace UniGears.CommonKit.Editor
+namespace UniGears.AsmdefKit.Editor
 {
     [Serializable]
-    public sealed class AssemblyDefinitionJson
+    public sealed class AsmdefJson
     {
         public string name = string.Empty;
         public string rootNamespace = string.Empty;

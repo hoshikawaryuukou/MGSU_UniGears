@@ -1,6 +1,6 @@
 {
-    "name": "UniGears.CommonKit.Editor",
-    "rootNamespace": "UniGears.CommonKit.Editor",
+    "name": "UniGears.AsmdefKit.Editor",
+    "rootNamespace": "UniGears.AsmdefKit.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"

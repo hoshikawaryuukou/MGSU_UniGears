@@ -2,7 +2,7 @@
 
 ## Packages
 
-### CommonKit
+### AsmdefKit
 ```
-https://github.com/hoshikawaryuukou/MGSU_UniGears.git?path=Assets/CommonKit/Scripts
+https://github.com/hoshikawaryuukou/MGSU_UniGears.git?path=Assets/AsmdefKit
 ```

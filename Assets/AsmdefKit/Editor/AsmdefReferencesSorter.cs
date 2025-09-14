@@ -4,9 +4,9 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 
-namespace UniGears.CommonKit.Editor
+namespace UniGears.AsmdefKit.Editor
 {
-    public static class AssemblyDefinitionReferencesSorter
+    public static class AsmdefReferencesSorter
     {
         private sealed class Data
         {
@@ -32,7 +32,7 @@ namespace UniGears.CommonKit.Editor
         public static bool Sort(string assetPath)
         {
             var json = File.ReadAllText(assetPath);
-            var jsonData = JsonUtility.FromJson<AssemblyDefinitionJson>(json);
+            var jsonData = JsonUtility.FromJson<AsmdefJson>(json);
             var oldReferences = jsonData.references;
 
             var newReferences = oldReferences
