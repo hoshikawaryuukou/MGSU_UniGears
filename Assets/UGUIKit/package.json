@@ -1,0 +1,12 @@
+{
+  "name": "com.miniaturegardenstudio.unigears.uguikit",
+  "version": "1.0.0",
+  "displayName": "UniGears UGUIKit",
+  "description": "UniGears UGUIKit",
+  "keywords": [
+    "ugui"
+  ],
+  "author": {
+    "name": "Miniature Garden Studio"
+  }
+}
